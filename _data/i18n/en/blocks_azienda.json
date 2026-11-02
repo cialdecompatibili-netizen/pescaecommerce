@@ -3,12 +3,12 @@
     "id": "chi",
     "nome": "About us",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">About us</p><h2 class=\"gc-h2\">Title of the introduction</h2><p class=\"gc-lead\">Who you are, what you do and for whom.</p><p>One more paragraph about how you work.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">About us</p><h2 class=\"gc-h2\">Fishing gear, chosen with care</h2><p class=\"gc-lead\">Pesca Ecommerce offers rods, reels, lines, hooks, baits and accessories for sea, lake and river anglers.</p><p>The catalog is meant to be easy to browse: a few clear ranges, direct descriptions and visible prices. If you have a question about a product or an order, write to us.</p></div></section></div>"
   },
   {
     "id": "principi",
     "nome": "Principles",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">How we behave</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>First principle</b><p>Short description.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Second principle</b><p>Short description.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Third principle</b><p>Short description.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">How we behave</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Clarity</b><p>Simple descriptions, with no promises we cannot verify.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Practicality</b><p>A tidy catalog to find what you need quickly.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Support</b><p>You write, we reply: before and after your purchase.</p></div></div></div></section></div>"
   }
 ]

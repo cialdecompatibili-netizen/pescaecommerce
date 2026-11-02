@@ -2,33 +2,520 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Canne da pesca",
+      "id": "canne",
+      "icona": "🎣",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Fishing rods"
+        }
+      }
+    },
+    {
+      "nome": "Mulinelli",
+      "id": "mulinelli",
+      "icona": "⚙️",
+      "tr": {
+        "en": {
+          "nome": "Reels"
+        }
+      }
+    },
+    {
+      "nome": "Lenze e fili",
+      "id": "lenze-fili",
+      "icona": "🧵",
+      "tr": {
+        "en": {
+          "nome": "Lines and braids"
+        }
+      }
+    },
+    {
+      "nome": "Ami e terminali",
+      "id": "ami-terminali",
+      "icona": "🪝",
+      "tr": {
+        "en": {
+          "nome": "Hooks and terminal tackle"
+        }
+      }
+    },
+    {
+      "nome": "Esche e artificiali",
+      "id": "esche-artificiali",
+      "icona": "🐟",
+      "tr": {
+        "en": {
+          "nome": "Baits and lures"
+        }
+      }
+    },
+    {
+      "nome": "Accessori",
+      "id": "accessori",
+      "icona": "🧰",
+      "tr": {
+        "en": {
+          "nome": "Accessories"
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "tipo": "fisico",
+      "id": "canna-spinning",
+      "nome": "Canna da spinning",
+      "categoria": "canne",
+      "prezzo_centesimi": 3990,
+      "descrizione": "Per la pesca con artificiali da riva o da barca.",
+      "descrizione_completa": "Canna da spinning: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer la pesca con artificiali da riva o da barca.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "🎣",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Spinning rod",
+          "descrizione": "For lure fishing from shore or boat.",
+          "descrizione_completa": "Spinning rod: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor lure fishing from shore or boat.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "canna-telescopica",
+      "nome": "Canna telescopica",
+      "categoria": "canne",
+      "prezzo_centesimi": 2490,
+      "descrizione": "Compatta da trasportare, comoda per lago e fiume.",
+      "descrizione_completa": "Canna telescopica: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nCompatta da trasportare, comoda per lago e fiume.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🎣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Telescopic rod",
+          "descrizione": "Compact to carry, handy for lake and river.",
+          "descrizione_completa": "Telescopic rod: a fishing item for anglers who want practicality.\n\n## How to use it\n\nCompact to carry, handy for lake and river.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "canna-surfcasting",
+      "nome": "Canna da surfcasting",
+      "categoria": "canne",
+      "prezzo_centesimi": 5990,
+      "descrizione": "Per lanci lunghi dalla spiaggia.",
+      "descrizione_completa": "Canna da surfcasting: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer lanci lunghi dalla spiaggia.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🎣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Surfcasting rod",
+          "descrizione": "For long casts from the beach.",
+          "descrizione_completa": "Surfcasting rod: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor long casts from the beach.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "canna-bolognese",
+      "nome": "Canna bolognese",
+      "categoria": "canne",
+      "prezzo_centesimi": 3490,
+      "descrizione": "Per la pesca a galleggiante in acque ferme e correnti lente.",
+      "descrizione_completa": "Canna bolognese: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer la pesca a galleggiante in acque ferme e correnti lente.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🎣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Float rod",
+          "descrizione": "For float fishing in still water and slow currents.",
+          "descrizione_completa": "Float rod: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor float fishing in still water and slow currents.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mulinello-spinning",
+      "nome": "Mulinello da spinning",
+      "categoria": "mulinelli",
+      "prezzo_centesimi": 2990,
+      "descrizione": "Per canne da spinning e pesca leggera.",
+      "descrizione_completa": "Mulinello da spinning: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer canne da spinning e pesca leggera.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "⚙️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Spinning reel",
+          "descrizione": "For spinning rods and light fishing.",
+          "descrizione_completa": "Spinning reel: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor spinning rods and light fishing.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mulinello-surf",
+      "nome": "Mulinello da surfcasting",
+      "categoria": "mulinelli",
+      "prezzo_centesimi": 4990,
+      "descrizione": "Bobina capiente per lanci lunghi.",
+      "descrizione_completa": "Mulinello da surfcasting: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nBobina capiente per lanci lunghi.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "⚙️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Surfcasting reel",
+          "descrizione": "Large spool for long casts.",
+          "descrizione_completa": "Surfcasting reel: a fishing item for anglers who want practicality.\n\n## How to use it\n\nLarge spool for long casts.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mulinello-frontale",
+      "nome": "Mulinello a frizione frontale",
+      "categoria": "mulinelli",
+      "prezzo_centesimi": 3490,
+      "descrizione": "Frizione regolabile sul lato anteriore della bobina.",
+      "descrizione_completa": "Mulinello a frizione frontale: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nFrizione regolabile sul lato anteriore della bobina.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "⚙️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Front drag reel",
+          "descrizione": "Adjustable drag on the front of the spool.",
+          "descrizione_completa": "Front drag reel: a fishing item for anglers who want practicality.\n\n## How to use it\n\nAdjustable drag on the front of the spool.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "monofilo-nylon",
+      "nome": "Filo in nylon monofilo",
+      "categoria": "lenze-fili",
+      "prezzo_centesimi": 990,
+      "descrizione": "Per montature, terminali e pesca generale.",
+      "descrizione_completa": "Filo in nylon monofilo: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer montature, terminali e pesca generale.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Nylon monofilament line",
+          "descrizione": "For rigs, leaders and general fishing.",
+          "descrizione_completa": "Nylon monofilament line: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor rigs, leaders and general fishing.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "trecciato",
+      "nome": "Filo trecciato",
+      "categoria": "lenze-fili",
+      "prezzo_centesimi": 1990,
+      "descrizione": "Per spinning e pesca con poca elasticità del filo.",
+      "descrizione_completa": "Filo trecciato: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer spinning e pesca con poca elasticità del filo.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Braided line",
+          "descrizione": "For spinning and fishing with low line stretch.",
+          "descrizione_completa": "Braided line: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor spinning and fishing with low line stretch.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fluorocarbon",
+      "nome": "Filo in fluorocarbon",
+      "categoria": "lenze-fili",
+      "prezzo_centesimi": 1490,
+      "descrizione": "Per terminali poco visibili in acqua.",
+      "descrizione_completa": "Filo in fluorocarbon: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer terminali poco visibili in acqua.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fluorocarbon line",
+          "descrizione": "For leaders that are hard to see in water.",
+          "descrizione_completa": "Fluorocarbon line: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor leaders that are hard to see in water.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "ami-assortiti",
+      "nome": "Assortimento di ami",
+      "categoria": "ami-terminali",
+      "prezzo_centesimi": 590,
+      "descrizione": "Misure diverse per tipi di pesca diversi.",
+      "descrizione_completa": "Assortimento di ami: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nMisure diverse per tipi di pesca diversi.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🪝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Assorted hooks",
+          "descrizione": "Different sizes for different kinds of fishing.",
+          "descrizione_completa": "Assorted hooks: a fishing item for anglers who want practicality.\n\n## How to use it\n\nDifferent sizes for different kinds of fishing.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "girelle-moschettoni",
+      "nome": "Girelle e moschettoni",
+      "categoria": "ami-terminali",
+      "prezzo_centesimi": 490,
+      "descrizione": "Per collegare filo, terminali e artificiali.",
+      "descrizione_completa": "Girelle e moschettoni: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer collegare filo, terminali e artificiali.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🪝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Swivels and snaps",
+          "descrizione": "To connect line, leaders and lures.",
+          "descrizione_completa": "Swivels and snaps: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo connect line, leaders and lures.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "piombi-assortiti",
+      "nome": "Piombi assortiti",
+      "categoria": "ami-terminali",
+      "prezzo_centesimi": 690,
+      "descrizione": "Pesi diversi per adattare la montatura.",
+      "descrizione_completa": "Piombi assortiti: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPesi diversi per adattare la montatura.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "⚫",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Assorted sinkers",
+          "descrizione": "Different weights to adjust the rig.",
+          "descrizione_completa": "Assorted sinkers: a fishing item for anglers who want practicality.\n\n## How to use it\n\nDifferent weights to adjust the rig.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "galleggianti",
+      "nome": "Set di galleggianti",
+      "categoria": "ami-terminali",
+      "prezzo_centesimi": 590,
+      "descrizione": "Per la pesca a galleggiante.",
+      "descrizione_completa": "Set di galleggianti: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer la pesca a galleggiante.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🔴",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Float set",
+          "descrizione": "For float fishing.",
+          "descrizione_completa": "Float set: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor float fishing.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cucchiaino-rotante",
+      "nome": "Cucchiaino rotante",
+      "categoria": "esche-artificiali",
+      "prezzo_centesimi": 490,
+      "descrizione": "Artificiale classico per spinning in acque dolci.",
+      "descrizione_completa": "Cucchiaino rotante: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nArtificiale classico per spinning in acque dolci.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "✨",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Spinner",
+          "descrizione": "Classic spinning lure for fresh water.",
+          "descrizione_completa": "Spinner: a fishing item for anglers who want practicality.\n\n## How to use it\n\nClassic spinning lure for fresh water.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "minnow",
+      "nome": "Pesciolino artificiale (minnow)",
+      "categoria": "esche-artificiali",
+      "prezzo_centesimi": 690,
+      "descrizione": "Imita un piccolo pesce per la pesca con artificiali.",
+      "descrizione_completa": "Pesciolino artificiale (minnow): articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nImita un piccolo pesce per la pesca con artificiali.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🐟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Minnow lure",
+          "descrizione": "Imitates a small fish for lure fishing.",
+          "descrizione_completa": "Minnow lure: a fishing item for anglers who want practicality.\n\n## How to use it\n\nImitates a small fish for lure fishing.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "siliconici",
+      "nome": "Esche siliconiche assortite",
+      "categoria": "esche-artificiali",
+      "prezzo_centesimi": 790,
+      "descrizione": "Per la pesca a spinning leggero.",
+      "descrizione_completa": "Esche siliconiche assortite: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer la pesca a spinning leggero.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🐛",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Assorted soft baits",
+          "descrizione": "For light spinning.",
+          "descrizione_completa": "Assorted soft baits: a fishing item for anglers who want practicality.\n\n## How to use it\n\nFor light spinning.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pasturatore",
+      "nome": "Pasturatore",
+      "categoria": "esche-artificiali",
+      "prezzo_centesimi": 390,
+      "descrizione": "Per distribuire pastura vicino alla lenza.",
+      "descrizione_completa": "Pasturatore: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer distribuire pastura vicino alla lenza.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🥣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Bait feeder",
+          "descrizione": "To spread groundbait near the line.",
+          "descrizione_completa": "Bait feeder: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo spread groundbait near the line.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "guadino",
+      "nome": "Guadino pieghevole",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1990,
+      "descrizione": "Per recuperare il pesce in sicurezza.",
+      "descrizione_completa": "Guadino pieghevole: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer recuperare il pesce in sicurezza.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🥅",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Folding landing net",
+          "descrizione": "To land the fish safely.",
+          "descrizione_completa": "Folding landing net: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo land the fish safely.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pinza-sganciaami",
+      "nome": "Pinza e sganciaami",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1290,
+      "descrizione": "Per slamare il pesce e tagliare il filo.",
+      "descrizione_completa": "Pinza e sganciaami: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer slamare il pesce e tagliare il filo.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🔧",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pliers and hook remover",
+          "descrizione": "To unhook the fish and cut the line.",
+          "descrizione_completa": "Pliers and hook remover: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo unhook the fish and cut the line.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "borsa-pesca",
+      "nome": "Borsa per attrezzatura",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2990,
+      "descrizione": "Per tenere ordinati ami, artificiali e accessori.",
+      "descrizione_completa": "Borsa per attrezzatura: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer tenere ordinati ami, artificiali e accessori.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "👜",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tackle bag",
+          "descrizione": "To keep hooks, lures and accessories tidy.",
+          "descrizione_completa": "Tackle bag: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo keep hooks, lures and accessories tidy.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "scatola-assortimenti",
+      "nome": "Scatola portaccessori",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1490,
+      "descrizione": "Scomparti per ami, girelle e piombi.",
+      "descrizione_completa": "Scatola portaccessori: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nScomparti per ami, girelle e piombi.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🧰",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tackle box",
+          "descrizione": "Compartments for hooks, swivels and sinkers.",
+          "descrizione_completa": "Tackle box: a fishing item for anglers who want practicality.\n\n## How to use it\n\nCompartments for hooks, swivels and sinkers.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "treppiede-canne",
+      "nome": "Appoggiacanne",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1790,
+      "descrizione": "Per appoggiare la canna durante l'attesa.",
+      "descrizione_completa": "Appoggiacanne: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer appoggiare la canna durante l'attesa.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "📐",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Rod rest",
+          "descrizione": "To rest the rod while waiting.",
+          "descrizione_completa": "Rod rest: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo rest the rod while waiting.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cappello-pesca",
+      "nome": "Cappello da pesca",
+      "categoria": "accessori",
+      "prezzo_centesimi": 1290,
+      "descrizione": "Per ripararsi dal sole durante la giornata.",
+      "descrizione_completa": "Cappello da pesca: articolo da pesca per chi cerca praticità.\n\n## Come usarlo\n\nPer ripararsi dal sole durante la giornata.\n\n## Prima di acquistare\n\nControlla le caratteristiche indicate sulla confezione e scegli l'attrezzatura adatta al tipo di pesca e alle regole locali. Per dubbi su un prodotto scrivici.",
+      "immagine": "",
+      "icona": "🧢",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fishing hat",
+          "descrizione": "To shade you from the sun during the day.",
+          "descrizione_completa": "Fishing hat: a fishing item for anglers who want practicality.\n\n## How to use it\n\nTo shade you from the sun during the day.\n\n## Before buying\n\nCheck the features shown on the packaging and choose gear suited to your kind of fishing and to local rules. If you have a question about a product, write to us."
         }
       }
     }
