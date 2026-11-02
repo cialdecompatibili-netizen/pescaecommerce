@@ -110,3 +110,5 @@ Tutto da Desktop Commander sul PC di Mirco, con Python. Il connettore GitHub non
 ## Pipeline e foto (valide per ogni clone)
 - Contenuti: `python automation/sviluppa.py` (esegue `automation/contenuti_*.py` del sito, permalink, hash lingue, controlli, commit+push). Nessun nome sito fisso.
 - Foto prodotti con Gemini API: `docs/IMMAGINI.md` (stile per sito in `_data/foto_prompt.json`, motore unico in `Desktop\gemini_auto`).
+
+- Shop nuovo da clone: scrivere automation/popola_<sito>.py (categorie+prodotti IT/EN) e contenuti_<sito>.py (home, chi siamo, articoli, toglie Servizi), poi python automation/sviluppa.py -m msg (permalink, hash EN, controlli, push). Modello: spezieclip / pescaecommerce.
